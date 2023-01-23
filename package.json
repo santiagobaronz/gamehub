@@ -1,0 +1,34 @@
+{
+  "name": "gamehub",
+  "version": "1.0.0",
+  "description": "Gamehub is a project in which you will (for now) be able to see the games that I have completed in a year. If it works as intended, it could serve as a platform for other users to share their games…",
+  "main": "app.js",
+  "scripts": {
+    "build:css": "postcss ./src/tailwind.css -o ./public/css/main.css --watch",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagobaronz/gamehub.git"
+  },
+  "keywords": [
+    "Gamehub"
+  ],
+  "author": "Santiago Baron Zuleta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagobaronz/gamehub/issues"
+  },
+  "homepage": "https://github.com/santiagobaronz/gamehub#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mysql2": "^3.0.1",
+    "node-fetch": "^3.3.0",
+    "nodemon": "^2.0.20",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.2.4"
+  }
+}
